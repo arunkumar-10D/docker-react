@@ -54,7 +54,7 @@ jobs:
     # Set up Docker Compose
     - name: Set up Docker Compose
       run: |
-        docker compose -f docker compose.yml up -d --build
+        docker compose -f docker-compose.yml up -d --build
 
     - name: Run tests inside Docker container
       run: |
